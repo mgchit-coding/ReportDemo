@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsReport", "WindowsFormsReport\WindowsFormsReport.csproj", "{D7A4FC6D-D013-4611-A995-396BF3CC3128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMVC.Report", "WebApplicationMVC.Report\WebApplicationMVC.Report.csproj", "{079D7EDE-C3FE-4213-B213-E7B81057F164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7A4FC6D-D013-4611-A995-396BF3CC3128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A4FC6D-D013-4611-A995-396BF3CC3128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A4FC6D-D013-4611-A995-396BF3CC3128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A4FC6D-D013-4611-A995-396BF3CC3128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079D7EDE-C3FE-4213-B213-E7B81057F164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079D7EDE-C3FE-4213-B213-E7B81057F164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079D7EDE-C3FE-4213-B213-E7B81057F164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079D7EDE-C3FE-4213-B213-E7B81057F164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABA608BC-FB18-4F2B-B280-26C6B7AD885A}
+	EndGlobalSection
+EndGlobal

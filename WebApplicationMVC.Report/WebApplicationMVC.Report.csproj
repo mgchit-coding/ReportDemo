@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\reports\BlogDataSet.Designer.cs" />
+    <Content Remove="wwwroot\reports\BlogDataSet.xsc" />
+    <Content Remove="wwwroot\reports\BlogDataSet.xsd" />
+    <Content Remove="wwwroot\reports\BlogDataSet.xss" />
+    <Content Remove="wwwroot\reports\BlogReport.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="wwwroot\reports\BlogDataSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BlogDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\reports\BlogReport.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\reports\BlogDataSet.xsc" />
+    <None Include="wwwroot\reports\BlogDataSet.xsd">
+      <SubType>Designer</SubType>
+      <LastGenOutput>BlogDataSet.Designer.cs</LastGenOutput>
+      <Generator>MSDataSetGenerator</Generator>
+    </None>
+    <None Include="wwwroot\reports\BlogDataSet.xss" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AspNetCore.Reporting" Version="2.1.0" />
+		<PackageReference Include="Dapper" Version="2.1.24" />
+		<PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+		<PackageReference Include="System.Security.Permissions" Version="8.0.0" />
+	</ItemGroup>
+</Project>
